@@ -5,7 +5,7 @@ import Spinner from '../spinner/Spinner';
 import ErrorMessage from '../errorMessage/ErrorMessage';
 import useMarvelService from '../../services/MarvelService';
 import './charList.scss';
-
+    
 const CharList = (props) => {
 
     const [charList, setCharList] = useState([]);
